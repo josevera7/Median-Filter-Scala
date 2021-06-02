@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\JOSELV~1\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\JOSELV~1\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (Oracle Corporation Java 11.0.8)
+[debug]       Load.loadUnit: plugins took 264.3751ms
+[debug]       Load.loadUnit: defsScala took 0.748099ms
+[debug] [Loading] Scanning directory C:\Users\Jose L Vera\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Jose L Vera\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 41.195301 ms
+[debug]           Load.resolveProject(global-plugins) took 77.876001ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Jose L Vera\.sbt\1.0\plugins, plugins: List(<none>))) took 156.9181ms
+[debug] [Loading] Done in C:\Users\Jose L Vera\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 193.895099ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.631099ms
+[debug]     Load.loadUnit(file:/C:/Users/Jose%20L%20Vera/.sbt/1.0/plugins/, ...) took 473.432101ms
+[debug]   Load.apply: load took 952.338101ms
+[debug]   Load.apply: resolveProjects took 8.128501ms
+[debug]   Load.apply: finalTransforms took 110.2179ms
+[debug]   Load.apply: config.delegates took 16.020799ms
+[debug]   Load.apply: Def.make(settings)... took 1258.111199ms
+[debug]   Load.apply: structureIndex took 147.410999ms
+[debug]   Load.apply: mkStreams took 2.7743ms
+[info] loading global plugins from C:\Users\Jose L Vera\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5120.142999ms
+[debug]           Load.loadUnit: plugins took 33.890301ms
+[debug]           Load.loadUnit: defsScala took 0.0049ms
+[debug] [Loading] Scanning directory C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\project
+[debug]             Load.loadUnit: mkEval took 11.9507ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8836 ms
+[info] loading settings for project pla4v2-build from idea.sbt ...
+[debug]               Load.resolveProject(pla4v2-build) took 9.6015ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pla4v2-build, base: C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\project, plugins: List(<none>))) took 12.103799ms
+[debug] [Loading] Done in C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\project, returning: (pla4v2-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 209.721299ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.0144ms
+[debug]         Load.loadUnit(file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/project/, ...) took 252.052601ms
+[debug]       Load.apply: load took 253.831499ms
+[debug]       Load.apply: resolveProjects took 0.1329ms
+[debug]       Load.apply: finalTransforms took 17.0575ms
+[debug]       Load.apply: config.delegates took 0.481999ms
+[debug]       Load.apply: Def.make(settings)... took 122.765399ms
+[debug]       Load.apply: structureIndex took 50.3565ms
+[debug]       Load.apply: mkStreams took 0.0035ms
+[info] loading project definition from C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1042.4235ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2
+[debug]       Load.loadUnit: mkEval took 0.5697ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.0389 ms
+[info] loading settings for project pla4v2 from build.sbt ...
+[debug]         Load.resolveProject(pla4v2) took 47.1359ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id pla4v2, base: C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2, plugins: List(<none>))) took 51.8105ms
+[debug] [Loading] Done in C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2, returning: (pla4v2)
+[debug]     Load.loadUnit: loadedProjectsRaw took 120.997199ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.8699ms
+[debug]   Load.loadUnit(file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/, ...) took 1174.0554ms
+[debug] Load.apply: load took 1177.0941ms
+[debug] Load.apply: resolveProjects took 0.1462ms
+[debug] Load.apply: finalTransforms took 49.646301ms
+[debug] Load.apply: config.delegates took 0.4232ms
+[debug] Load.apply: Def.make(settings)... took 105.7226ms
+[debug] Load.apply: structureIndex took 34.099ms
+[debug] Load.apply: mkStreams took 0.0028ms
+[info] set current project to PLA4v2 (in build file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 50392 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 50392, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to PLA4v2 (in build file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/)
+[debug] > Exec(idea-shell, None, None)

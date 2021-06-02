@@ -1,0 +1,26 @@
+[debug] > Exec(all {file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/}pla4v2/products {file:/C:/Users/Jose%20L%20Vera/Documents/Fall%202020/Programming%20Language/PLA4v2/}pla4v2/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\target\scala-2.13\classes ...
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.3. Compiling...
+[info]   Compilation completed in 11.83s.
+[warn] C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\src\main\scala\main.scala:56:22: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]                 case _ => window(i) = image.getRGB(fx,fy)
+[warn]                      ^
+[warn] C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\src\main\scala\main.scala:97:24: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]                   case _ => window(i) = image.getRGB(fx,fy)
+[warn]                        ^
+[warn] C:\Users\Jose L Vera\Documents\Fall 2020\Programming Language\PLA4v2\src\main\scala\main.scala:119:24: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]                   case _ => window(i) = image.getRGB(fx,fy)
+[warn]                        ^
+[warn] 2 deprecations (since 2.13.3); re-run with -deprecation for details
+[warn] four warnings found
+[info] done compiling
+[success] Total time: 17 s, completed Oct 15, 2020, 2:58:32 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
